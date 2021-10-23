@@ -435,3 +435,42 @@ public class App {
         return numero;
     }
 
+    static void otraVez(String name){                                                        //Reiniciar sin salir
+        System.out.println("");
+        Scanner user = new Scanner(System.in);
+
+        System.out.println("           __");
+        System.out.println("          /\\ \\");
+        System.out.println("         / /\\ \\       ¿Deseas intentarlo otra vez?");
+        System.out.println("        / /__\\ \\");
+        System.out.println("        \\/____\\/");
+        System.out.println("");
+        System.out.println("a. Si");
+        System.out.println("b. No");
+        String quiero = user.nextLine();
+
+        if(quiero.equals("a")){
+            try {
+                int eleccion = menu(name);
+                queHacer(eleccion, name);
+            } catch (Exception InputMismatchException) {
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que las opciones son numeros");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+                otraVez(name);
+            }
+        }else{
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Hasta luego Buddy <3");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
+            System.exit(0);
+        }
+
+    }
+
