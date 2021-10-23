@@ -474,3 +474,33 @@ public class App {
 
     }
 
+    static void algoMas(String name){                                                   //pregunta si quiere salir
+
+        System.out.println("");
+        Scanner user = new Scanner(System.in);
+
+        System.out.println("           __");
+        System.out.println("          /\\ \\");
+        System.out.println("         / /\\ \\       ¿Deseas hacer algo mas?");
+        System.out.println("        / /__\\ \\");
+        System.out.println("        \\/____\\/");
+        System.out.println("");
+        System.out.println("a. Si");
+        System.out.println("b. No");
+        String mas = user.nextLine();
+
+        if(mas.equals("a")){
+            int eleccion = menu(name);
+            queHacer(eleccion, name);
+        }else{
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Hasta luego Buddy <3");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
+            System.exit(0);
+        }
+    }
+
+}
