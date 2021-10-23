@@ -85,7 +85,35 @@ public class App {
             System.out.println("        / /__\\ \\");
             System.out.println("        \\/____\\/");
             System.out.println("");
+        }else if(eleccion == 3){
+            float aPerro = añosPerros();
+            DecimalFormat df = new DecimalFormat("0.00");
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Tu tienes: " + df.format(aPerro) + " años perro");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
         }
+        else if(eleccion == 4){
+            int nNum = numeroLogia(name);
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Tu numero segun la numerologia es: " + nNum );
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
+        }else{
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       El Numero ingresado no es una opcion valida");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
+            otraVez(name);
+        }
+        algoMas(name);
+    }
 
 
 
