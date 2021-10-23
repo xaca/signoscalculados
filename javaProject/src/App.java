@@ -233,3 +233,87 @@ public class App {
                 System.out.println("");
                 otraVez(name);
             }
+        }else if(mes == 7){
+            if(dia <= 22){
+                signo = "Cancer";
+            }else if(dia <= 31){
+                signo = "Leo";
+            }else{
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que julio solo tiene 31 dias");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+                otraVez(name);
+            }
+        }else if(mes == 8){
+            if(dia <= 23){
+                signo = "Leo";
+            }else if(dia <= 31){
+                signo = "Virgo";
+            }else{
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que agosto solo tiene 31 dias");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+                otraVez(name);
+            }
+        }else if(mes == 9){
+            if(dia <= 23){
+                signo = "Virgo";
+            }else if(dia <= 30){
+                signo = "Libra";
+            }else{
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que septiembre solo tiene 30 dias");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+                otraVez(name);
+            }
+        }else if(mes == 10){
+            if(dia <= 23){
+                signo = "Libra";
+            }else if(dia <= 31){
+                signo = "Scorpio";
+            }else{
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que octubre solo tiene 31 dias");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+                otraVez(name);
+            }
+        }else if(mes == 11){
+            if(dia <= 22){
+                signo = "Scorpio";
+            }else if(dia <= 30){
+                signo = "Sagitario";
+            }else{
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que noviembre solo tiene 30 dias");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+                otraVez(name);
+            }
+        }else if(mes == 12){
+            if(dia <= 21){
+                signo = "Sagitario";
+            }else if(dia <= 31){
+                signo = "Capricornio";
+            }else{
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que diciembre solo tiene 31 dias");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+                otraVez(name);
+            }
