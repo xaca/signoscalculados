@@ -378,3 +378,28 @@ public class App {
 
     }
 
+    static float añosPerros(){                                                                   //Edad en años perro
+        float diasP = 0;
+        float edad;
+
+        System.out.println("");
+        Scanner user = new Scanner(System.in);
+        System.out.println("           __");
+        System.out.println("          /\\ \\");
+        System.out.println("         / /\\ \\       Para eso necesito:");
+        System.out.println("        / /__\\ \\");
+        System.out.println("        \\/____\\/");
+        System.out.println("");
+
+        System.out.println("     .-^-.");
+        System.out.println("    '\"'|`\"` Tu edad: ");
+        System.out.println("       j");
+        System.out.println("");
+        edad = user.nextFloat();
+        System.out.println("");
+
+        diasP = edad/7;
+
+       return diasP;
+    }
+
