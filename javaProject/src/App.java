@@ -17,6 +17,9 @@ public class App {
         System.out.println("        \\/____\\/");
         System.out.println("");
         name = user.nextLine();
+         try {
+            eleccion1 = menu(name);
+            queHacer(eleccion1, name);
 
 
 
