@@ -68,7 +68,9 @@ public class App {
                 System.out.println("         / /\\ \\       Recuerda que los datos son en numeros no el letras");
                 System.out.println("        / /__\\ \\");
                 System.out.println("        \\/____\\/");
-              
+                System.out.println("");
+                otraVez(name);
+            }
 
 
 
