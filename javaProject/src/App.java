@@ -31,6 +31,10 @@ public class App {
         }
 
     }
+    static int menu(String name){                                                       //Menu
+        System.out.println("");
+        int option;
+        Scanner user = new Scanner(System.in);
 
 
 
