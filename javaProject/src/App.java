@@ -17,9 +17,20 @@ public class App {
         System.out.println("        \\/____\\/");
         System.out.println("");
         name = user.nextLine();
-         try {
+          try {
             eleccion1 = menu(name);
             queHacer(eleccion1, name);
+        } catch (Exception InputMismatchException) {
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Recuerda que las opciones son numeros");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
+            otraVez(name);
+        }
+
+    }
 
 
 
