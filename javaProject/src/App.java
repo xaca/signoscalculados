@@ -57,6 +57,18 @@ public class App {
 
         return option;
     }
+    static void queHacer(int eleccion, String name){                              //Dice Que Hacer Al Programa
+        if(eleccion == 1){
+            String sZodiacal ="";
+            try {
+                sZodiacal = zodiaco(name);
+            } catch (Exception InputMismatchException) {
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que los datos son en numeros no el letras");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+              
 
 
 
