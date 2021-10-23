@@ -35,6 +35,28 @@ public class App {
         System.out.println("");
         int option;
         Scanner user = new Scanner(System.in);
+        System.out.println("           __");
+        System.out.println("          /\\ \\");
+        System.out.println("         / /\\ \\       Okay " + name + ", ¿Que deseas hacer?");
+        System.out.println("        / /__\\ \\");
+        System.out.println("        \\/____\\/");
+        System.out.println("");
+
+        System.out.println("    __| |____________________________________________| |__");
+        System.out.println("    (__   ____________________________________________   __)");
+        System.out.println("      | |                                            | |");
+        System.out.println("      | |   1. Saber tu signo zodiacal                 | |");
+        System.out.println("      | |   2. Saber cuantos dias has vivido         | |");
+        System.out.println("      | |   3. Saber tu edad en años perro           | |");
+        System.out.println("      | |   4. Saber tu numero segun la numerologia  | |");
+        System.out.println("     _| |____________________________________________| |__");
+        System.out.println("    (__   ____________________________________________   __)");
+        System.out.println("       | |                                            | |");
+        System.out.println("");
+        option = user.nextInt();
+
+        return option;
+    }
 
 
 
