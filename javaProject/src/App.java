@@ -361,3 +361,20 @@ public class App {
         año = user.nextInt();
         System.out.println("");
 
+        Calendar fecha = new GregorianCalendar();
+        mes = fecha.get(Calendar.MONTH);
+        dia = fecha.get(Calendar.DATE);
+
+        vivido = (((2021-año)*365) + ((mes+1)*30) + dia);
+        if(vivido < 0){
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Al parecer aun no has nacido");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
+        }
+       return vivido;
+
+    }
+
