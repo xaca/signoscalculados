@@ -338,3 +338,26 @@ public class App {
         return signo;
     }
 
+    static int dias(){                                                                             //Dias vividos
+
+        int dia;
+        int mes;
+        int año;
+        int vivido = 0;
+
+        System.out.println("");
+        Scanner user = new Scanner(System.in);
+        System.out.println("           __");
+        System.out.println("          /\\ \\");
+        System.out.println("         / /\\ \\       Para eso necesito:");
+        System.out.println("        / /__\\ \\");
+        System.out.println("        \\/____\\/");
+        System.out.println("");
+
+        System.out.println("     .-^-.");
+        System.out.println("    '\"'|`\"` Tu año de nacimiento: ");
+        System.out.println("       j");
+        System.out.println("");
+        año = user.nextInt();
+        System.out.println("");
+
