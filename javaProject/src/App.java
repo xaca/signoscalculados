@@ -317,3 +317,24 @@ public class App {
                 System.out.println("");
                 otraVez(name);
             }
+        }else{
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Recuerda que solo hay 12 meses y por lo tanto van de 1 a 12");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
+            if(dia > 31){
+                System.out.println("           __");
+                System.out.println("          /\\ \\");
+                System.out.println("         / /\\ \\       Recuerda que todos los meses tienen alrededor de 30 o 31 dias a excepcion de febrero");
+                System.out.println("        / /__\\ \\");
+                System.out.println("        \\/____\\/");
+                System.out.println("");
+            }
+            otraVez(name);
+        }
+
+        return signo;
+    }
+
