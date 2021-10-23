@@ -403,3 +403,35 @@ public class App {
        return diasP;
     }
 
+    static int numeroLogia(String name){                                                //calcula el numero - numerologia
+        int numero = 0;
+        int numeroP;
+        int dNac;
+
+        System.out.println("");
+        Scanner user = new Scanner(System.in);
+        System.out.println("           __");
+        System.out.println("          /\\ \\");
+        System.out.println("         / /\\ \\       Para eso necesito:");
+        System.out.println("        / /__\\ \\");
+        System.out.println("        \\/____\\/");
+        System.out.println("");
+
+        System.out.println("     .-^-.");
+        System.out.println("    '\"'|`\"` Tu dia de nacimiento: ");
+        System.out.println("       j");
+        System.out.println("");
+        dNac = user.nextInt();
+        System.out.println("");
+
+        if(dNac <= 31){
+            numeroP = (dNac%10) + (dNac/10);
+            numero = (numeroP%10) + (numeroP/10);
+        }else{
+            System.out.println("Recuerda: Los meses solo tienen maximo 31 dias");
+            otraVez(name);
+        }
+
+        return numero;
+    }
+
