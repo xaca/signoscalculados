@@ -77,6 +77,14 @@ public class App {
             System.out.println("        / /__\\ \\");
             System.out.println("        \\/____\\/");
             System.out.println("");
+        }else if(eleccion == 2){
+            int dVividos = dias();
+            System.out.println("           __");
+            System.out.println("          /\\ \\");
+            System.out.println("         / /\\ \\       Tu has vivido: " + dVividos + " dias");
+            System.out.println("        / /__\\ \\");
+            System.out.println("        \\/____\\/");
+            System.out.println("");
         }
 
 
